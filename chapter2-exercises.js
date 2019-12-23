@@ -1,3 +1,4 @@
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ CHAPTER 2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Exercise 1 Looping a Triangle
 
 // for(let str = '#'; str.length < 7; str += '#'){
@@ -29,5 +30,20 @@ Exercise 2 FizzBuzz
 // }
 
 // Exercise 3 Chessboard
+//Sets board size to 8
+// let size = 8;
 
+// let board = "";
 
+// for (let y = 0; y < size; y++) {
+//   for (let x = 0; x < size; x++) {
+//     if ((x + y) % 2 == 0) {
+//       board += " ";
+//     } else {
+//       board += "#";
+//     }
+//   }
+//   board += "\n";
+// }
+
+// console.log(board);
