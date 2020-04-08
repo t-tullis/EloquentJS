@@ -2,6 +2,7 @@
 
 //CLOSURE
 //multiplier is called and it creates an environment in which its factor parameter is bound to 2. The function value it returns, which is stored in twice, remembers this environment. So when that is called, it multiplies its argument by 2.
+
 // function multiplier(factor){
 //     return number => number * factor
 // }
@@ -74,3 +75,17 @@
 
 // console.log(countChar('how man letter is are inside this little ol string', 'i'))
 
+// function findSolution(target){
+//     function find(current, history){
+//         if(current == target){
+//             return history;
+//         }else if (current > target){
+//             return null;
+//         }else{
+//             return find(current + 5, `(${history} + 5)`) || find(current * 3, `(${history} * 3)`);
+//         }
+//     }
+//     return find(1, "1")
+// }
+
+// console.log(findSolution(24));
