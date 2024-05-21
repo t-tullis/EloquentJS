@@ -1,9 +1,11 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ CHAPTER 2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Exercise 1 Looping a Triangle
 
-let name = 'Terrell'
+function callName(name) {
+  console.log(`Hi ${name}`)
+}
 
-console.log(name)
+callName('Terrell')
 
 // for(let str = '#'; str.length < 7; str += '#'){
 //     console.log(str)
